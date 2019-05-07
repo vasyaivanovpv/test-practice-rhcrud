@@ -1,0 +1,28 @@
+.EditWordForm {
+  position: relative;
+  max-width: 1024px;
+  margin: 16px auto;
+  padding: 12px;
+  border-radius: 4px;
+  border: 2px solid rgb(147, 240, 85);
+}
+.EditWordForm_important {
+  background-color: rgb(147, 240, 85);
+}
+.EditWordForm__form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.EditWordForm__btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.EditWordForm__btn-del {
+  right: 20px;
+}
+.EditWordForm__btn-pin {
+  left: 20px;
+}

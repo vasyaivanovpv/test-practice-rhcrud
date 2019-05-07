@@ -1,0 +1,31 @@
+.AddWordForm {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 1024px;
+  margin: 0 auto 60px;
+  padding: 12px;
+  background-color: rgb(240, 85, 85);
+  border-radius: 4px;
+}
+.AddWordForm:hover > .AddWordForm__btn-add {
+  display: block;
+}
+.AddWordForm__input {
+  width: 300px;
+  height: 54px;
+  padding: 4px 12px;
+  border: none;
+  outline: none;
+  border-radius: 24px;
+  font-size: 2.4rem;
+  margin: 0 12px;
+}
+.AddWordForm__btn-add {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
