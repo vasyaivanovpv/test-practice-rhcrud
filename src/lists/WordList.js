@@ -15,12 +15,7 @@ const WordList = props => {
     ));
   };
 
-  return (
-    <div>
-      {console.log('render list')}
-      {renderDataList()}
-    </div>
-  );
+  return <div>{renderDataList()}</div>;
 };
 
 WordList.propTypes = {

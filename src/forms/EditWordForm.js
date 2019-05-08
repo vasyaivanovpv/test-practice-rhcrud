@@ -43,7 +43,6 @@ const EditWordForm = props => {
         (word.important ? 'EditWordForm_important' : '')
       }
     >
-      {console.log('render edit')}
       <div className="EditWordForm__form">
         <EditInput
           name="englishWord"

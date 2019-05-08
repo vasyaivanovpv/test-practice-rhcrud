@@ -26,7 +26,6 @@ const AddWordForm = props => {
   };
   return (
     <form className="App__form AddWordForm">
-      {console.log('render add')}
       <input
         type="text"
         placeholder="english word"

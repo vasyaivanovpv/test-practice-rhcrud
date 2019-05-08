@@ -17,14 +17,11 @@ const App = () => {
 
   useEffect(() => {
     const initialWords = JSON.parse(localStorage.getItem('words')) || dataList;
-    console.log(initialWords);
     setWords(initialWords);
   }, []);
 
   useEffect(() => {
-    console.log(words);
     localStorage.setItem('words', JSON.stringify(words));
-    // localStorage.removeItem('words');
   }, [words]);
 
   const addWord = word => {
@@ -46,7 +43,6 @@ const App = () => {
 
   return (
     <AppContext.Provider value={[updateWord, removeWord]}>
-      {console.log('render App')}
       <div className="App">
         <header className="App__header">
           <h1>English Dictionary</h1>
